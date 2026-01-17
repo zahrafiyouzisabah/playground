@@ -1,6 +1,6 @@
 const http = require('http');
 const express = require('express');
-const { fibonacci } = require('../functions/fibo');
+const { fibonacci } = require('./functions/fibo');
 
 const port = 3000;
 const app = express();
