@@ -7,7 +7,8 @@ const app = express();
 const server = http.createServer(app);
 
 app.get('/', (req, res) => {
-  res.send('The fibonacci of 10 is ' + fibonacci(10));
+    const text = "\n ********* NEW TEXT ******";
+    res.send('The fibonacci of 10 is ' + fibonacci(10) + " And for 20:"+ fibonacci(20) + text);
 });
 
 server.listen(port, () => {
