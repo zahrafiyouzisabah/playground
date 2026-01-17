@@ -4,7 +4,4 @@ function fibonacci(n) {
 }
 
 
-console.log(fibonacci(10)); 
-console.log(fibonacci(15));
-
 module.exports = { fibonacci };

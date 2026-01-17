@@ -1,4 +1,4 @@
-const {fibonacci} = require('./index');
+const {fibonacci} = require('./fibo');
 
 test('fibonacci of 0 should be 0', () => {
     expect(fibonacci(0)).toBe(0);
